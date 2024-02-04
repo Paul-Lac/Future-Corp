@@ -18,4 +18,4 @@ Github usernames of team members : mdonatelli1, ssvm1, dtricolici12345, EgleLab,
 
 ## Access to the website
 
-THe website is accessible at : https://paul-lac.github.io/Future-Corp/
+The website is accessible at : https://paul-lac.github.io/Future-Corp/
