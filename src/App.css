@@ -1,0 +1,21 @@
+header {
+	text-align: left;
+	padding-left: 1rem;
+	color: #1f1f1f;
+	font-size: 0.6rem;
+}
+
+a {
+	text-decoration: none;
+}
+footer {
+	position: absolute;
+	bottom: 1rem;
+
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#logo {
+	width: 3rem;
+}

@@ -1,0 +1,66 @@
+#carousel {
+	margin-top: 2rem;
+}
+
+.img-container {
+	background-color: var(--container-color);
+
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	padding: 0.3rem;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%, 0 85%, 0% 50%);
+	border: 2px solid;
+	border-image: linear-gradient(
+			90deg,
+			rgba(255, 255, 255, 0) 0%,
+			rgba(255, 255, 255, 1) 50%,
+			rgba(255, 255, 255, 0) 100%
+		)
+		1;
+}
+
+.img-container img {
+	width: 100%;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%, 0 85%, 0% 50%);
+}
+
+.info-container {
+	background-color: var(--container-color);
+
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%, 0 80%, 0% 50%);
+	border: 2px solid;
+	border-image: linear-gradient(
+			90deg,
+			rgba(255, 255, 255, 0) 0%,
+			rgba(255, 255, 255, 1) 50%,
+			rgba(255, 255, 255, 0) 100%
+		)
+		1;
+}
+
+.info-container h2 {
+	margin-left: 0.25rem;
+
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.info-container h3 {
+	margin: 1rem 0;
+
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.info-container p {
+	margin: 0.5rem;
+	margin-top: 0;
+
+	font-size: 0.875rem;
+	font-weight: 500;
+}
